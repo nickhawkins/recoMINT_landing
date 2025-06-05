@@ -1,0 +1,25 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./docs/output.css --minify",
+    "build:html": "cp ./src/index.html ./docs/index.html",
+    "build:logo": "cp ./src/logo.webp ./docs/logo.webp",
+    "build:visual": "cp ./src/visual.webp ./docs/visual.webp",
+    "build": "npm-run-all build:css build:html build:logo build:visual", 
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
