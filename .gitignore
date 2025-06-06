@@ -1,0 +1,45 @@
+###############################################################################
+# Generic JavaScript / HTML / GitHub Pages                                    #
+###############################################################################
+
+# macOS
+.DS_Store
+
+# Node & package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build / deploy artefacts
+dist/
+build/
+public/
+gh-pages/          # local copy of GitHub Pages output (if you keep one)
+
+# Static-site generators / bundlers (add or delete as needed)
+_site/             # Jekyll
+.jekyll-cache/
+.sass-cache/
+.next/             # Next.js
+.out/
+.cache/            # Parcel / Vite / SvelteKit
+.svelte-kit/
+astro/
+.storybook/
+
+# Tests & coverage
+coverage/
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tgz
