@@ -1,7 +1,3 @@
-###############################################################################
-# Generic JavaScript / HTML / GitHub Pages                                    #
-###############################################################################
-
 # macOS
 .DS_Store
 
@@ -15,20 +11,20 @@ pnpm-debug.log*
 dist/
 build/
 public/
-gh-pages/          # local copy of GitHub Pages output (if you keep one)
+gh-pages/
 
-# Static-site generators / bundlers (add or delete as needed)
-_site/             # Jekyll
+# Static-site generators / bundlers
+_site/
 .jekyll-cache/
 .sass-cache/
-.next/             # Next.js
+.next/
 .out/
-.cache/            # Parcel / Vite / SvelteKit
+.cache/
 .svelte-kit/
 astro/
 .storybook/
 
-# Tests & coverage
+# Tests
 coverage/
 
 # Environment variables
